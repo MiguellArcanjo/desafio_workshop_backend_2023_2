@@ -63,7 +63,7 @@ python manage.py runserver
         "quantidade": 5,
         "preco": 1999.99,
         "categoria_produto": "Eletronico", O NOME DA CATEGORIA APARECE NAS OPÇÕES DE ESCOLHA APÓS INSERIR NA ROTA DE CATEGORIAS
-        "marca_do_produto": "Apple", O NOME DA MARCA APARECE NAS OPÇÕES DE ESCOLHA APÓS INSERIR NA ROTA DE CATEGORIAS
+        "marca_do_produto": "Apple", O NOME DA MARCA APARECE NAS OPÇÕES DE ESCOLHA APÓS INSERIR NA ROTA DE MARCAS
     }
 
 ```
