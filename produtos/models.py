@@ -13,7 +13,7 @@ class MarcaProduto(models.Model):
         return f'{self.marca}'
 
 class Produto(models.Model):
-    nome = models.CharField(max_length=100)
+    nome_do_item = models.CharField(max_length=100)
     descricao = models.CharField(max_length=100)
     quantidade = models.IntegerField()
     preco = models.FloatField()

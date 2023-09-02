@@ -43,27 +43,27 @@ python manage.py runserver
 ```json
 
     {
-    "nome": "",
-    "descricao": "",
-    "quantidade": 1,
-    "preco": 1.5,
-    "categoria_produto": choice,
-    "marca_do_produto": choice,
+        "nome": "",
+        "descricao": "",
+        "quantidade": 1,
+        "preco": 1.5,
+        "categoria_produto": choice,
+        "marca_do_produto": choice,
     }
 
 ```
 
 **(PUT)**
-> Atualizando dados da API: *rota_api/produto/produto/id*
+> Atualizando dados da API pelo ID: *rota_api/produto/produto/id*
 ```json
 
     {
-    "nome": "Iphone XS",
-    "descricao": "Iphone com 4gb de ram ",
-    "quantidade": 5,
-    "preco": 1999.99,
-    "categoria_produto": "Eletronico", **O NOME DA CATEGORIA APARECE NAS OPÇÕES DE ESCOLHA APÓS INSERIR NA ROTA DE CATEGORIAS**
-    "marca_do_produto": "Apple",
+        "nome": "Iphone XS",
+        "descricao": "Iphone com 4gb de ram ",
+        "quantidade": 5,
+        "preco": 1999.99,
+        "categoria_produto": "Eletronico", **O NOME DA CATEGORIA APARECE NAS OPÇÕES DE ESCOLHA APÓS INSERIR NA ROTA DE CATEGORIAS**
+        "marca_do_produto": "Apple",
     }
 
 ```
@@ -133,3 +133,27 @@ python manage.py runserver
 
 **(DELETE)**
 > Deletando um dado específico da API: *rota_api/produto/produto/id*
+
+
+## Banco de dados
+
+**O banco de dados utilizado no projeto foi o postgreSQL**
+
+## Filtragem de dados
+
+> Usando o servidor local, o Django Rest Framework criará uma interface gráfica. Lá, haverá uma opção chamada "filters". Você terá apenas que escrever o nome do produto, a marca dele ou a categoria dele.
+
+> Usando alguma ferramenta como o postman ou o insomnia 
+
+**Buscando na rota categoria**
+*http://rota_api/produto/categoria/?search=moveis*
+
+**Buscando na rota Marca**
+*http://rota_api/produto/marca/?search=Nike*
+
+**Buscando na rota Produtos**
+*http://rota_api/produto/produto/?search=iphone*
+
+## Itens duplicados
+
+**Quando você tenta adicionar um item que já existe no banco de dados, será lançado o erro HTTP 400 Bad Request, impedindo que itens duplicados possam existir.**
