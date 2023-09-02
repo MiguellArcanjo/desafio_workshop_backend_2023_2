@@ -1,5 +1,7 @@
 # desafio_workshop_backend_2023_2
 
+**O projeto consiste em uma API na qual você poderá adicionar seus produtos, a descrição deles, o valor, a quantidade, a categoria e a marca. Você poderá consultar, atualizar, cadastrar e deletar esses itens. Para adicionar a categoria e a marca a um produto, você primeiro deverá adicioná-las em suas respectivas rotas para que possam aparecer no produto.**
+
 ## Passo a Passo de como executar:
 
 1 - Clonar o Repositorio:
