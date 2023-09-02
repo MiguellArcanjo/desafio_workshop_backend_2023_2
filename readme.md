@@ -34,9 +34,9 @@ python manage.py runserver
 
 **(GET)** 
 
-*rota_api/produto/produto* : Retorna todos os dados da API 
+**rota_api/produto/produto** : Retorna todos os dados da API 
 
-*rota_api/produto/produto/id* : Retorna um dado específico da API pelo *ID*
+**rota_api/produto/produto/id** : Retorna um dado específico da API pelo *ID*
 
 **(POST)**
 > Enviando novos dados para a API
@@ -76,9 +76,9 @@ python manage.py runserver
 
 **(GET)**
 
-*rota_api/produto/categoria* : Retorna todos os dados da API 
+**rota_api/produto/categoria** : Retorna todos os dados da API 
 
-*rota_api/produto/categoria/id* : Retorna um dado específico da API pelo *ID*
+**rota_api/produto/categoria/id** : Retorna um dado específico da API pelo *ID*
 
 **(POST)**
 > Enviando um novo dado para a API
@@ -107,9 +107,9 @@ python manage.py runserver
 
 **(GET)**
 
-*rota_api/produto/marca* : Retorna todos os dados da API 
+**rota_api/produto/marca** : Retorna todos os dados da API 
 
-*rota_api/produto/marca/id* : Retorna um dado específico da API pelo *ID*
+**rota_api/produto/marca/id** : Retorna um dado específico da API pelo *ID*
 
 **(POST)**
 > Enviando um novo dado para a API
