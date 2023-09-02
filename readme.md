@@ -85,7 +85,7 @@ python manage.py runserver
 ```json
 
     {
-    "categoria": "",
+        "categoria": "",
     }
 
 ```
@@ -95,7 +95,7 @@ python manage.py runserver
 ```json
 
     {
-    "categoria": "Eletronico",
+        "categoria": "Eletronico",
     }
 
 ```
@@ -116,7 +116,7 @@ python manage.py runserver
 ```json
 
     {
-    "marca": "",
+        "marca": "",
     }
 
 ```
@@ -126,7 +126,7 @@ python manage.py runserver
 ```json
 
     {
-    "marca": "Apple",
+        "marca": "Apple",
     }
 
 ```
