@@ -32,8 +32,10 @@ python manage.py runserver
 
 ## Acessando as rotas do produto
 
-**(GET)**
+**(GET)** 
+
 *rota_api/produto/produto* : Retorna todos os dados da API 
+
 *rota_api/produto/produto/id* : Retorna um dado específico da API pelo *ID*
 
 **(POST)**
@@ -73,7 +75,9 @@ python manage.py runserver
 ## Acessando as rotas da Categoria do Produto
 
 **(GET)**
+
 *rota_api/produto/categoria* : Retorna todos os dados da API 
+
 *rota_api/produto/categoria/id* : Retorna um dado específico da API pelo *ID*
 
 **(POST)**
@@ -102,7 +106,9 @@ python manage.py runserver
 ## Acessando as rotas da Marca do Produto
 
 **(GET)**
+
 *rota_api/produto/marca* : Retorna todos os dados da API 
+
 *rota_api/produto/marca/id* : Retorna um dado específico da API pelo *ID*
 
 **(POST)**
